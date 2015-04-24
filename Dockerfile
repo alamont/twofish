@@ -1,6 +1,6 @@
 FROM java:7
 ADD http://twofishes.net/binaries/server-assembly-0.84.9.jar .
-ADD http://twofishes.net/indexes/revgeo/2015-03-05.zip .
+RUN wget http://twofishes.net/indexes/revgeo/2015-03-05.zip
 
 RUN apt-get update && apt-get install -y unzip
 
