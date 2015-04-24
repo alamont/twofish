@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y unzip
 
 RUN unzip 2015-03-05.zip
 RUN rm 2015-03-05.zip
-CMD java -jar server-assembly-0.81.9.jar --hfile_basepath 2015-03-05
+CMD java -jar server-assembly-0.81.9.jar --hfile_basepath 2015-03-05-20-05-30.753698
 
 
 
